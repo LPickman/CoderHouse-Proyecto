@@ -1,0 +1,72 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+/*Creando mis propias variables*/
+:root {
+  --primary-font: "Raleway", sans-serif;
+  --bs-dark-bg-subtle: #6c757d8f;
+}
+
+/*Modificado Bootstrap*/
+
+/*Mis estilos*/
+
+.navbar-brand img {
+  max-width: 100%;
+  height: 100px;
+}
+
+.nav-link {
+  font-family: var(--primary-font);
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.collapse .nav-link {
+  margin: 5px;
+  padding-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.collapse .nav-link:hover {
+  background-color: var(--bs-dark-bg-subtle);
+  color: white;
+}
+
+.login {
+  color: #2d7dd6;
+  font-weight: bold;
+  background-color: #2d7cd618;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.login:hover {
+  background-color: #2d7dd6 !important;
+  color: white;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
