@@ -1,5 +1,13 @@
-* {
-  margin: 0%;
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Asegura que el padding y border se incluyan en el ancho y alto */
+}
+
+video {
+  display: block;
+  margin: 0;
   padding: 0;
 }
 
@@ -12,6 +20,12 @@
 /*Modificado Bootstrap*/
 
 /*Mis estilos*/
+
+header {
+  position: sticky;
+  top: 0px;
+  border-bottom: 0.6px solid var(--bs-dark-bg-subtle);
+}
 
 .navbar-brand img {
   max-width: 100%;
@@ -48,6 +62,70 @@
 .login:hover {
   background-color: #2d7dd6 !important;
   color: white;
+}
+.content {
+}
+
+video {
+  max-width: 100%;
+}
+
+.presentacion {
+  margin-top: 0;
+  background-color: #2d7cd689;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.presentacion p {
+  width: 70%;
+  font-size: 0.8rem;
+  font-family: var(--primary-font);
+  color: black !important;
+  margin-bottom: 0;
+}
+
+.tarjeta {
+  border-radius: 20px;
+  max-height: 530px;
+  max-width: 270px;
+  background-color: #f5f5f5ca;
+}
+
+.tarjeta picture img {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.secciones {
+  display: flex;
+  justify-content: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 20px;
+}
+
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+  padding: 20px;
+}
+
+.descripcion p {
+  font-size: 0.8rem;
+}
+
+.descripcion h2 {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
