@@ -428,6 +428,10 @@ footer p {
   padding: 10px;
 }
 
+select option {
+  width: 100%;
+}
+
 .inputs select option {
   font-family: var(--primary-font);
 }
