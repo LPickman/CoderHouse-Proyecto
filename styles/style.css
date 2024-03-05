@@ -258,18 +258,348 @@ footer p {
   margin-bottom: 0;
 }
 
+/******************************* PLANES ******************************/
+.planes-suscripcion-h1 {
+  margin-top: 20px;
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
+
+.planes-suscripcion-h2 {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.planes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.plan {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #efececba;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.plan__title__1 {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  background-color: black;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.plan__title__2 {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  background-color: gold;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.plan__title__3 {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  background-color: rgb(102, 34, 154);
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.plan__title__1 p {
+  margin-bottom: 0;
+}
+
+.plan__title__2 p {
+  margin-bottom: 0;
+}
+
+.plan__title__3 p {
+  margin-bottom: 0;
+}
+
+.plan__precio {
+  font-family: var(--primary-font);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.plan__precio p {
+  margin-bottom: 0;
+}
+
+.lista-modulos {
+  text-align: center;
+}
+
+.lista-modulo {
+  border-bottom: 1px solid #c4c7cb;
+  padding: 10px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.lista-modulo-01 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.probar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #2d7cd6a6;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.probar:hover {
+  background-color: #2d7cd6;
+}
+
+/*****************************************CONTACTANOS**************************/
+
+.content-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.content-contacto .descripcion {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-contacto .descripcion h1 {
+  font-family: var(--primary-font);
+  font-size: 3rem;
+}
+
+.content-contacto .descripcion p {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgb(221, 220, 220);
+  padding: 40px;
+  border-radius: 6px;
+  gap: 20px;
+  box-shadow: 0px 0px 10px rgba(90, 89, 89, 0.5);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputs input {
+  height: 100%;
+  padding: 10px;
+}
+
+.inputs select option {
+  font-family: var(--primary-font);
+}
+
+.inputs select {
+  padding: 10px;
+}
+
+input::placeholder {
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+}
+
+.selecciona-pais {
+  color: red;
+}
+
+textarea {
+  padding: 10px;
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+}
+
+.button {
+  font-family: var(--primary-font);
+  box-shadow: 0px 0px 10px rgba(90, 89, 89, 0.5);
+  background-color: rgb(120, 173, 235);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(14, 58, 109);
+}
+
+/*****************************Login*******************************************/
+
+.login-plataforma {
+  border: 1px solid black;
+  border-radius: 45px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.login-plataforma__inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 40px;
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+.login-plataforma__title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+.login-plataforma input {
+  height: 40px;
+  padding: 10px;
+}
+
+.olvidaste {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.registro {
+  text-align: center;
+}
+
+.button-acceder {
+  background-color: #1a75be;
+  border-radius: 8px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main-login {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(232, 235, 234);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 30px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  box-shadow: 0px 0px 30px rgba(218, 218, 218, 0.5);
+}
+
+.form-login__title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(15, 1, 1, 0.144);
+  padding: 10px;
+}
+
+.form-login__title h1 {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.form-login input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.iniciar-sesion {
+  width: 100px;
+  background-color: rgb(43, 119, 226);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.olvidaste-password {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid rgba(15, 1, 1, 0.144);
+  padding: 10px;
+}
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }
+
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1800px) {
+  .form-login {
+    max-width: 50%;
+  }
 }
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
+
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
