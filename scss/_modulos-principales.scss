@@ -1,0 +1,66 @@
+/******************************* MODULOS PRINCIPALES ******************************/
+.modulos-principales {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-evenly;
+  background-color: #2d7cd642;
+}
+
+.modulos-principales {
+  img {
+    max-width: 100%;
+    height: 250px;
+  }
+}
+.modulos-principales {
+  .descripcion {
+    max-width: 500px;
+  }
+}
+
+.modulos-principales {
+  .title {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+
+.modulos-principales {
+  p {
+    font-family: var(--primary-font);
+  }
+}
+
+.modulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.modulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c4c7cb;
+  border-radius: 15px;
+  padding: 30px;
+  gap: 20px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.modulo {
+  p {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}

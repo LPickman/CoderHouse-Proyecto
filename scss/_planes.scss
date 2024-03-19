@@ -1,0 +1,128 @@
+/******************************* PLANES ******************************/
+.planes-suscripcion-h1 {
+  margin-top: 20px;
+  font-family: var(--primary-font);
+  font-size: 2rem;
+}
+
+.planes-suscripcion-h2 {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.planes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.plan {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #efececba;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.plan__title__1 {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  background-color: black;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.plan__title__2 {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  background-color: gold;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.plan__title__3 {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  background-color: rgb(102, 34, 154);
+  color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.plan__title__1 {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.plan__title__2 {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.plan__title__3 {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.plan__precio {
+  font-family: var(--primary-font);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.plan__precio {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.lista-modulos {
+  text-align: center;
+}
+
+.lista-modulo {
+  border-bottom: 1px solid #c4c7cb;
+  padding: 10px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.lista-modulo-01 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.probar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #2d7cd6a6;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.probar:hover {
+  background-color: #2d7cd6;
+}
