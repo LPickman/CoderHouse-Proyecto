@@ -93,7 +93,7 @@ footer {
   justify-content: space-between;
   padding: 20px;
   border-top: 1px solid rgb(221, 220, 220);
-  background-color: #7e7e7e;
+  background-color: #c3c6ca;
 }
 
 .menu-footer {
@@ -290,7 +290,11 @@ video {
   padding: 30px;
   border-radius: 15px;
   background-color: rgba(239, 236, 236, 0.7294117647);
+}
+
+.plan:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
 }
 
 .plan__title__1 {
