@@ -71,3 +71,16 @@ footer {
     font-size: 0.8rem;
   }
 }
+
+footer {
+  div {
+    div {
+      a {
+        padding: 2px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

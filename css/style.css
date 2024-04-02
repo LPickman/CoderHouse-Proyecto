@@ -143,6 +143,13 @@ footer p {
   font-size: 0.8rem;
 }
 
+footer div div a {
+  padding: 2px;
+}
+footer div div a:hover {
+  text-decoration: underline;
+}
+
 video {
   width: 100%;
   height: auto;
