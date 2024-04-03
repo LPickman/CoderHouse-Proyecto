@@ -25,5 +25,8 @@
       "Lucida Sans", Arial, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    &:hover {
+      color: #2d7dd6;
+    }
   }
 }
