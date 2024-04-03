@@ -666,5 +666,8 @@ textarea {
   font-weight: bold;
   text-decoration: none;
 }
+.logo_wpp a:hover {
+  color: #2d7dd6;
+}
 
 /*# sourceMappingURL=style.css.map */
