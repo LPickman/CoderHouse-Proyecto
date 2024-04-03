@@ -90,17 +90,31 @@ footer {
   margin-top: auto;
   /*------------------------------------*/
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   border-top: 1px solid rgb(221, 220, 220);
   background-color: #c8cbcf;
 }
 
 .menu-footer {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;
+}
+.menu-footer h4 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.menu-footer__contactanos,
+.menu-footer__ubicacion,
+.menu-footer__correo {
+  width: 250px;
 }
 
 .menu-footer_item {
@@ -124,6 +138,8 @@ footer {
 footer p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(99, 98, 98);
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .logo {
@@ -132,15 +148,18 @@ footer p {
 }
 
 .copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  border-top: 2px solid black;
+  padding: 10px;
 }
 
 .copyright p {
+  text-align: center;
   font-family: var(--primary-font);
   color: black;
   font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 0;
 }
 
 footer div div a {
@@ -621,5 +640,31 @@ textarea {
   }
 }
 /* // XX-Large devices (larger desktops, 1400px and up) */
+.logo_wpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #29a71a;
+  width: 220px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.logo_wpp img {
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo_wpp a {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

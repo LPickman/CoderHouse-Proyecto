@@ -13,17 +13,31 @@ footer {
   margin-top: auto;
   /*------------------------------------*/
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   border-top: 1px solid rgb(221, 220, 220);
   background-color: #c8cbcf;
 }
 
 .menu-footer {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;
+  h4 {
+    font-family: var(--primary-font);
+    font-weight: bold;
+  }
+}
+
+.menu-footer__contactanos,
+.menu-footer__ubicacion,
+.menu-footer__correo {
+  width: 250px;
 }
 
 .menu-footer_item {
@@ -50,6 +64,8 @@ footer {
   p {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(99, 98, 98);
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -59,16 +75,19 @@ footer {
 }
 
 .copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  border-top: 2px solid black;
+  padding: 10px;
 }
 
 .copyright {
   p {
+    text-align: center;
     font-family: var(--primary-font);
     color: black;
     font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 0;
   }
 }
 

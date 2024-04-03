@@ -1,0 +1,29 @@
+.logo_wpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #29a71a;
+  width: 220px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  img {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.logo_wpp {
+  a {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
