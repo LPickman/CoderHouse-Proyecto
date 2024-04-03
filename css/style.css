@@ -411,6 +411,10 @@ video {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .probar:hover {
   background-color: #2d7cd6;
 }
@@ -614,6 +618,9 @@ textarea {
   font-weight: bold;
   cursor: pointer;
 }
+.iniciar-sesion:hover {
+  background-color: rgb(14, 58, 109);
+}
 
 .olvidaste-password {
   display: flex;
@@ -668,6 +675,71 @@ textarea {
 }
 .logo_wpp a:hover {
   color: #2d7dd6;
+}
+
+.body-envio-form {
+  background-color: rgba(178, 200, 224, 0.442);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+}
+
+.envio-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+}
+.envio-form img {
+  max-width: 100%;
+  height: 100px;
+}
+
+.agradecimiento {
+  background-image: url(../img/background-contacto.jpg);
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+.agradecimiento div h1 {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+.agradecimiento div p {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+
+.volver {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.volver a {
+  background-color: #2d7dd6;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+.volver a:hover {
+  background-color: #1c4d85;
 }
 
 /*# sourceMappingURL=style.css.map */

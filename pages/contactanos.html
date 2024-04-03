@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FixDri</title>
+    <title>Contactanos | FixDri</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -130,7 +130,7 @@
                   <a class="nav-link" href="contactanos.html">Contáctanos</a>
                 </li>
 
-                <div class="ms-20">
+                <!-- <div class="ms-20">
                   <li class="nav-item">
                     <a
                       href="login.html"
@@ -144,7 +144,7 @@
                       ></iconify-icon>
                     </a>
                   </li>
-                </div>
+                </div> -->
               </ul>
             </div>
           </div>
@@ -163,13 +163,8 @@
         </p>
       </div>
 
-      <form action="" class="form-contacto">
+      <form action="./form-enviado.html" class="form-contacto">
         <h2>Formulario de contacto</h2>
-        <p>
-          Si deseás que un representante de venta o de atención al cliente se
-          contacte con vos, completá la totalidad de los campos de este
-          formulario, y lo haremos a la brevedad.
-        </p>
 
         <div class="inputs">
           <input type="text" placeholder="Nombre y Apellido" required />
@@ -177,10 +172,19 @@
           <input type="email" placeholder="Email" required />
 
           <input type="tel" placeholder="Celular/Télefono" required />
+          <select name="planes" id="planes" required>
+            <option value="" disabled selected hidden>Eliga su plan</option>
+            <option value="">Plan Profesional</option>
+            <option value="">Plan Estándar</option>
+            <option value="">Plan Básico</option>
+            <option value="" style="font-style: italic">
+              Aún no lo tengo decidido
+            </option>
+          </select>
 
           <select id="paises" name="paises" required>
             <option value="" disabled selected hidden class="selecciona-pais">
-              Selecciona un País
+              Seleccione un País
             </option>
             <option value="AF">Afganistán</option>
             <option value="AL">Albania</option>
