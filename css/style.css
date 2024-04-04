@@ -308,12 +308,14 @@ video {
   margin-top: 20px;
   font-family: var(--primary-font);
   font-size: 2rem;
+  text-align: center;
 }
 
 .planes-suscripcion-h2 {
   font-family: var(--primary-font);
   font-size: 1rem;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .planes {
@@ -325,14 +327,30 @@ video {
   margin-bottom: 30px;
 }
 
-.plan {
+.plan_1,
+.plan_2,
+.plan_3 {
   padding: 20px;
   border-radius: 15px;
-  background-color: rgba(239, 236, 236, 0.7294117647);
+  box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+  height: 100%;
 }
 
-.plan:hover {
-  box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.3);
+.plan_1 {
+  border-top: 25px solid black;
+}
+
+.plan_2 {
+  border-top: 25px solid gold;
+}
+
+.plan_3 {
+  border-top: 25px solid rgb(104, 12, 190);
+}
+
+.plan_1:hover,
+.plan_2:hover,
+.plan_3:hover {
   transform: scale(1.01);
 }
 
@@ -340,36 +358,36 @@ video {
   display: flex;
   flex-direction: column;
   font-family: var(--primary-font);
-  background-color: black;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  background-color: rgb(0, 0, 0);
 }
 
 .plan__title__2 {
   display: flex;
   flex-direction: column;
   font-family: var(--primary-font);
-  background-color: gold;
-  color: white;
+  color: black;
   padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  background-color: rgba(255, 217, 0, 0.267);
 }
 
 .plan__title__3 {
   display: flex;
   flex-direction: column;
   font-family: var(--primary-font);
-  background-color: rgb(102, 34, 154);
-  color: white;
+  color: black;
   padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  background-color: rgba(104, 12, 190, 0.363);
 }
 
 .plan__title__1 p {
@@ -394,6 +412,11 @@ video {
   margin-bottom: 0;
 }
 
+.plan__precio span {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+
 .lista-modulos {
   text-align: center;
 }
@@ -402,12 +425,15 @@ video {
   border-bottom: 1px solid #c4c7cb;
   padding: 10px;
   font-family: var(--primary-font);
+}
+
+.lista-title {
   font-weight: bold;
 }
 
 .lista-modulo-01 {
   padding: 10px;
-  font-weight: bold;
+  font-family: var(--primary-font);
 }
 
 .probar {
