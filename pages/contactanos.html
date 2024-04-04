@@ -171,7 +171,13 @@
 
           <input type="email" placeholder="Email" required />
 
-          <input type="tel" placeholder="Celular/Télefono" required />
+          <input
+            type="tel"
+            placeholder="Celular/Télefono"
+            required
+            pattern="^\+?\d{0,3}[\s.-]?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+            title="Por favor, ingrese un número de teléfono valido."
+          />
           <select name="planes" id="planes" required>
             <option value="" disabled selected hidden>Eliga su plan</option>
             <option value="">Plan Profesional</option>
