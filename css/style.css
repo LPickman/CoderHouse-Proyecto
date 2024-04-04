@@ -323,7 +323,7 @@ video {
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: center;
-  gap: 20px;
+  gap: 90px;
   margin-bottom: 30px;
 }
 
@@ -358,12 +358,11 @@ video {
   display: flex;
   flex-direction: column;
   font-family: var(--primary-font);
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: rgb(0, 0, 0);
 }
 
 .plan__title__2 {
@@ -375,7 +374,6 @@ video {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: rgba(255, 217, 0, 0.267);
 }
 
 .plan__title__3 {
@@ -387,7 +385,6 @@ video {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: rgba(104, 12, 190, 0.363);
 }
 
 .plan__title__1 p {
@@ -436,14 +433,42 @@ video {
   font-family: var(--primary-font);
 }
 
-.probar {
+.probar_1 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 7px;
   width: 100%;
   border-radius: 8px;
-  background-color: rgba(45, 124, 214, 0.6509803922);
+  background-color: black;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.probar_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: gold;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.probar_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: violet;
   border: none;
   padding: 10px;
   font-weight: bold;
@@ -454,8 +479,8 @@ a {
   text-decoration: none;
 }
 
-.probar:hover {
-  background-color: #2d7cd6;
+.probar_1:hover {
+  background-color: black;
 }
 
 /*****************************************CONTACTANOS**************************/
