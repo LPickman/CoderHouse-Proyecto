@@ -462,7 +462,7 @@ a {
 .content-contacto {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 40px;
 }
 
@@ -486,7 +486,7 @@ a {
   flex-direction: column;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   border: 1px solid rgb(221, 220, 220);
   padding: 40px;
@@ -503,7 +503,7 @@ a {
 
 .inputs input {
   height: 100%;
-  padding: 10px;
+  padding: 7px;
 }
 
 select option {
@@ -515,7 +515,7 @@ select option {
 }
 
 .inputs select {
-  padding: 10px;
+  padding: 7px;
 }
 
 input::placeholder {
@@ -676,6 +676,9 @@ textarea {
 @media (max-width: 1024px) {
   .form-login {
     width: 90%;
+  }
+  .form-contacto {
+    width: 95%;
   }
 }
 /* // Large devices (desktops, 992px and up) */
