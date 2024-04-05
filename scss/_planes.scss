@@ -18,8 +18,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: center;
-  gap: 90px;
+  gap: 50px;
   margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 200px;
 }
 
 .plan_1,
@@ -33,14 +35,17 @@
 
 .plan_1 {
   border-top: 25px solid black;
+  animation: fade 0.3s ease-in-out;
 }
 
 .plan_2 {
   border-top: 25px solid gold;
+  animation: fade 0.3s ease-in-out;
 }
 
 .plan_3 {
   border-top: 25px solid rgb(104, 12, 190);
+  animation: fade 0.3s ease-in-out;
 }
 
 .plan_1:hover,
@@ -48,6 +53,7 @@
 .plan_3:hover {
   transform: scale(1.01);
 }
+
 .plan__title__1 {
   display: flex;
   flex-direction: column;
@@ -142,42 +148,48 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 7px;
   width: 100%;
   border-radius: 8px;
-  background-color: black;
-  border: none;
+  background-color: none;
+  border: 1px solid rgb(98, 92, 92);
   padding: 10px;
   font-weight: bold;
-  color: white;
+  color: #1a75be;
+  transition: all 0.2s ease-in-out;
 }
 
 .probar_2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 7px;
   width: 100%;
   border-radius: 8px;
-  background-color: gold;
-  border: none;
+  background-color: white;
+  border: 1px solid rgb(98, 92, 92);
   padding: 10px;
   font-weight: bold;
-  color: white;
+  color: #1a75be;
+  transition: all 0.2s ease-in-out;
 }
 
 .probar_3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 7px;
   width: 100%;
   border-radius: 8px;
-  background-color: violet;
-  border: none;
+  background-color: white;
+  border: 1px solid rgb(98, 92, 92);
   padding: 10px;
   font-weight: bold;
-  color: white;
+  color: #1a75be;
+  transition: all 0.2s ease-in-out;
 }
 
 a {
@@ -186,4 +198,15 @@ a {
 
 .probar_1:hover {
   background-color: black;
+  color: white;
+}
+
+.probar_2:hover {
+  background-color: gold;
+  color: black;
+}
+
+.probar_3:hover {
+  background-color: rgb(104, 12, 190);
+  color: black;
 }
